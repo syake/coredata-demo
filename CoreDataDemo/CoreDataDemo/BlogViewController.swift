@@ -47,7 +47,7 @@ class BlogViewController: UITableViewController {
     }
     
     func add(sender: UIButton) {
-        let controller = UIAlertController(title: "データ追加", message: "", preferredStyle: .Alert)
+        let controller = UIAlertController(title: "Add Article", message: "", preferredStyle: .Alert)
         controller.addTextFieldWithConfigurationHandler({(title: UITextField!) -> Void in
         })
         controller.addAction(UIAlertAction(title: "OK", style: .Default, handler: { (action: UIAlertAction!) -> Void in
